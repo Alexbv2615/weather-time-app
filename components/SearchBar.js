@@ -18,7 +18,7 @@ export default function SearchBar() {
 
     let matchingCities = [];
 
-    if(value.length > 3) {
+    if(value.length > 1) {
         for(let city of cities) {
             if(matchingCities.length >=5 ){
                 break;
@@ -49,7 +49,7 @@ export default function SearchBar() {
         <Image className='search-icon' src='/image/cancel.svg' width={22} height={22} alt='' onClick={handleCancel} />
        }
        {
-        search.length > 3 && (
+        search.length > 1 && (
             <ul>
                 {
                     results.length > 0 ? (
