@@ -110,6 +110,13 @@ h6 {
   bottom: 1.2rem;
 }
 
+@media (max-width: 600px) {
+  .footer{
+    display: none;
+  }
+}
+
+
 /*-------------------COMPONENT SEARCHBAR-----------------------*/
 .search {
   position: relative;
@@ -246,7 +253,7 @@ ul {
 @media (max-width: 600px) {
   .view{
     width: 80%;
-    height: 75vh;
+    height: 80vh;
 
     &-head{
       gap: 2rem;
