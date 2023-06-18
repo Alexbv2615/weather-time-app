@@ -160,10 +160,7 @@ export default function City({ link, data, time }) {
                             delay: 0.7
                         }}
                     >
-                    {
-                        data.weather[0].icon &&
-                        <Image className='view-weather-icon' src={`https://openweathermap.org/img/wn/${data?.weather[0].icon}@4x.png`} alt='' width={200} height={200} priority/>
-                    }
+                        <img className='view-weather-icon' src={`https://openweathermap.org/img/wn/${data?.weather[0].icon}@4x.png`} alt='' width={200} height={200}/>
                     </motion.div>
 
                     <motion.h2
