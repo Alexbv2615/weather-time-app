@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85.621" height="28" viewBox="0 0 85.621 28">
+  <g id="botonBack" transform="translate(-583.379 -65)">
+    <g id="back" transform="translate(-102 -85.676)">
+      <line id="Línea_29" data-name="Línea 29" x2="20.882" transform="translate(687.5 164.838)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Línea_30" data-name="Línea 30" y1="7.338" x2="7.338" transform="translate(687.5 157.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Línea_31" data-name="Línea 31" x2="7.338" y2="7.338" transform="translate(687.5 164.838)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <text id="back-2" data-name="back" transform="translate(616 87)" fill="#fff" font-size="24" font-family="Consolas"><tspan x="0" y="0">back</tspan></text>
+  </g>
+</svg>
