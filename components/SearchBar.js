@@ -54,7 +54,7 @@ export default function SearchBar() {
                 {
                     results.length > 0 ? (
                         results.map((city, index) => (
-                            <li key={index}>
+                            <li onClick={handleCancel} key={index}>
                                 <Link href={`/location/${city.link}`}>
                                         {city.name}
                                         {city.state ? `, ${city.state}` : ''}
